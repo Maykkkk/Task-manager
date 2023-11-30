@@ -32,11 +32,11 @@ const TaskList = () => {
   return (
     
     <div className="main-container">
-      <div className="background-container" style={{ backgroundImage: 'url("6530.jpg")' }}>
+      <div className="background-container" style={{  backgroundColor: '#121c2b'}}>
         <header className="mb-4 text-center task-manager-header">
           <h1 className="font-weight-bold">Task Manager</h1>
         </header>
-        <div className="container mt-4" style={{ background: '#C38D9E', padding: '20px', borderRadius: '8px' }}>
+        <div className="container mt-4" style={{ background: '#000', padding: '20px', borderRadius: '8px' }}>
           <h1 className="mb-4 text-center">Tasks List</h1>
           <ul className="list-group">
             {tasks.map(task => (
@@ -62,7 +62,7 @@ const TaskList = () => {
           </div>
         </div>
         <footer className="mt-4 text-center task-manager-footer">
-          <p>&copy; 2023 @Mayank Gupta</p>
+          <p>&copy; 2023 @anil developer</p>
         </footer>
       </div>
     </div>
